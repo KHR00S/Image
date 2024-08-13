@@ -2,3 +2,4 @@ diffusers
 Pillow
 streamlit
 torch
+accelerate
