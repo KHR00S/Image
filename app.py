@@ -5,7 +5,7 @@ from io import BytesIO
 import os
 
 # Load the model
-model_id = "Yntec/DisneyPixarCartoon768"
+model_id = "runwayml/stable-diffusion-v1-5"
 pipeline = DiffusionPipeline.from_pretrained(model_id)
 pipeline.enable_model_cpu_offload()
 
